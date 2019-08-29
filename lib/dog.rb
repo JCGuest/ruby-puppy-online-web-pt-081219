@@ -4,7 +4,6 @@ attr_accessor :name
 
 @@all = []
 
-@@names = []
 
 def initialize(name)
   @name = name
@@ -23,7 +22,7 @@ def self.clear_all
 end
 
 def self.print_all
- @@names.map { |name| puts "#{name}" }
+ puts @@all.map{ |dog| dog.name }
 end 
 
 
