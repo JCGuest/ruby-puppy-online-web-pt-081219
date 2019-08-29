@@ -23,7 +23,7 @@ def self.clear_all
 end
 
 def self.print_all
-  @@all.uniq.to_s
+  @@all.
 end 
 
 
