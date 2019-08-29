@@ -23,7 +23,7 @@ def self.clear_all
 end
 
 def self.print_all
-  puts @@names.uniq.to_s
+  puts @@all
 end 
 
 
